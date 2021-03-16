@@ -1,0 +1,21 @@
+input:focus {
+				background-color: violet;
+			}
+			
+		/*p:first-child {*/ /*PRIMER HIJO*/
+			/*color: red;
+		}*/
+		/*p:last {*/ /*ULTIMO HIJO*/
+			/*color: violet;
+		}*/
+
+		/*p::first-line {*/ /*PRIMERA LINEA*/
+			/*font-style: italic;
+		}*/
+		/*p::last-line { *//*ULTIMA LINEA*/ /*(para que esto funcione debo meter todos los parrafos adentro de un div)*/
+			/*font-style: italic;
+		}*/
+		p::first-letter { /*PRIMERA LETRA/LETRA CAPITAL*/
+			font-size: 3em;
+			color: red;
+		}
